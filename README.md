@@ -1,54 +1,49 @@
-<header>
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Vermögensverwaltung & Projekte</title>
+  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+</head>
+<body class="bg-white text-gray-900">
+  <!-- Navigation -->
+  <header class="flex justify-between items-center p-6 shadow-md">
+    <h1 class="text-2xl font-semibold">FinanzRaum</h1>
+    <nav class="space-x-4">
+      <a href="#immobilien" class="hover:underline">Immobilien</a>
+      <a href="#projekt" class="hover:underline">Projektmanagement</a>
+      <a href="#werttransporte" class="hover:underline">Werttransporte</a>
+    </nav>
+  </header>
 
-<!--
-  <<< Author notes: Course header >>>
-  Include a 1280×640 image, course title in sentence case, and a concise description in emphasis.
-  In your repository settings: enable template repository, add your 1280×640 social image, auto delete head branches.
-  Add your open source license, GitHub uses MIT license.
--->
+  <!-- Immobilien & Vermögensverwaltung -->
+  <section id="immobilien" class="py-16 px-8 max-w-5xl mx-auto">
+    <h2 class="text-4xl font-bold mb-6">Immobilien & Vermögensverwaltung</h2>
+    <p class="mb-4">Vertrauen schafft Werte, die bleiben. Wir glauben daran, dass stabile Geschäftsbeziehungen auf Vertrauen und Verlässlichkeit basieren. Unsere Immobilienprojekte entstehen aus Verantwortung und dem Ziel, nachhaltigen Wohnraum zu schaffen.</p>
+    <p class="mb-4">Mit Blick auf kommende Generationen investieren wir in Immobilien, die langfristigen Wert bieten. Nachhaltigkeit bedeutet für uns nicht nur ökologisches Handeln, sondern auch wirtschaftliche Beständigkeit.</p>
+    <p>Beständigkeit und Weitblick sind das Fundament für nachhaltigen Vermögensaufbau. Wir wachsen mit Weitblick und investieren gezielt in Immobilien, die den Grundstein für ein solides und langfristiges Vermögen legen.</p>
+  </section>
 
-# GitHub Pages
+  <!-- Projektmanagement -->
+  <section id="projekt" class="py-16 px-8 max-w-5xl mx-auto bg-gray-100">
+    <h2 class="text-4xl font-bold mb-6">Projektmanagement</h2>
+    <p class="mb-4">Effizienz, Qualität und Transparenz – Ihr Projekt in besten Händen. Wir setzen auf bewährte Methoden des Projektmanagements, um Ihre Projekte effizient und zielgerichtet umzusetzen. Dabei berücksichtigen wir die drei entscheidenden Faktoren: Zeit, Kosten und Umfang.</p>
+    <p class="mb-4">Jedes Projekt ist einzigartig. Daher entwickeln wir maßgeschneiderte Strategien, die genau auf Ihre Anforderungen und Ziele abgestimmt sind.</p>
+    <p>Offene und regelmäßige Kommunikation ist der Schlüssel zum Projekterfolg. Wir halten Sie stets über den Fortschritt informiert und stehen für Fragen jederzeit zur Verfügung.</p>
+  </section>
 
-_Create a site or blog from your GitHub repositories with GitHub Pages._
+  <!-- Werttransporte -->
+  <section id="werttransporte" class="py-16 px-8 max-w-5xl mx-auto">
+    <h2 class="text-4xl font-bold mb-6">Werttransporte</h2>
+    <p class="mb-4">Sicherheit für Ihre Werte – national und international. Mit Professionalität, Diskretion und einer hohen Fach- und Methodenkompetenz ermöglichen wir ein Höchstmaß an Sicherheit für jedes uns anvertraute Transportgut.</p>
+    <p class="mb-4">Ob verdeckte Werttransporte, Sicherheitstransporte oder hochsensible Datentransporte – wir bieten maßgeschneiderte Lösungen für Ihre speziellen Anforderungen.</p>
+    <p>Unsere Dienstleistungen erstrecken sich über Deutschland, Europa und darüber hinaus. Vertrauen Sie auf unsere Erfahrung für sichere Transporte weltweit.</p>
+  </section>
 
-</header>
-
-<!--
-  <<< Author notes: Step 1 >>>
-  Choose 3-5 steps for your course.
-  The first step is always the hardest, so pick something easy!
-  Link to docs.github.com for further explanations.
-  Encourage users to open new tabs for steps!
--->
-
-## Step 1: Enable GitHub Pages
-
-_Welcome to GitHub Pages and Jekyll :tada:!_
-
-The first step is to enable GitHub Pages on this [repository](https://docs.github.com/en/get-started/quickstart/github-glossary#repository). When you enable GitHub Pages on a repository, GitHub takes the content that's on the main branch and publishes a website based on its contents.
-
-### :keyboard: Activity: Enable GitHub Pages
-
-1. Open a new browser tab, and work on the steps in your second tab while you read the instructions in this tab.
-1. Under your repository name, click **Settings**.
-1. Click **Pages** in the **Code and automation** section.
-1. Ensure "Deploy from a branch" is selected from the **Source** drop-down menu, and then select `main` from the **Branch** drop-down menu.
-1. Click the **Save** button.
-1. Wait about _one minute_ then refresh this page (the one you're following instructions from). [GitHub Actions](https://docs.github.com/en/actions) will automatically update to the next step.
-   > Turning on GitHub Pages creates a deployment of your repository. GitHub Actions may take up to a minute to respond while waiting for the deployment. Future steps will be about 20 seconds; this step is slower.
-   > **Note**: In the **Pages** of **Settings**, the **Visit site** button will appear at the top. Click the button to see your GitHub Pages site.
-
-<footer>
-
-<!--
-  <<< Author notes: Footer >>>
-  Add a link to get support, GitHub status page, code of conduct, license link.
--->
-
----
-
-Get help: [Post in our discussion board](https://github.com/orgs/skills/discussions/categories/github-pages) &bull; [Review the GitHub status page](https://www.githubstatus.com/)
-
-&copy; 2023 GitHub &bull; [Code of Conduct](https://www.contributor-covenant.org/version/2/1/code_of_conduct/code_of_conduct.md) &bull; [MIT License](https://gh.io/mit)
-
-</footer>
+  <!-- Footer -->
+  <footer class="p-6 bg-gray-900 text-white text-center">
+    
+  </footer>
+</body>
+</html>
